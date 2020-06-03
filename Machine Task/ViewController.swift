@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        checkLocationServices()
         
         mapView.showsUserLocation = true //turn on the user's location
         
